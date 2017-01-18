@@ -1,15 +1,31 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="../static/madlibs.css">
     <title></title>
   </head>
   <body>
     <form action="/madlib">
-      Name a person <input type="text" name="person">
-      Give me a color <input type="text" name="color">
-      Now give me a noun <input type="text" name="noun">
-      How about an adjective <input type="text" name="adjective">
+      <h3>
+      Choose a color
+      <select name="color">
+        <option value="green">green</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
+        <option value="purple">purple</option>
+        <option value="brown">brown</option>
+      </select>
+      </h3>
+      <h3>
+      Name a person <input type="text" name="person"> </h3>
+      <h3>Now give me a noun <input type="text" name="noun"> </h3>
+      <h3>How about an adjective <input type="text" name="adjective"> </h3>
+      <h3>Name an event (plural) <input type="text" name="event"> </h3>
+      <h3>Pick a verb (past tense) <input type="text" name="verb"></h3>
+
       <input type="submit">
+      
     </form>
 
   </body>
